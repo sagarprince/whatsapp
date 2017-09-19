@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Online Users</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let user of allUsers" (click)="gotoSingleChat(user)">
+      <ion-avatar item-start>
+        <img src="assets/images/profile.jpg">
+      </ion-avatar>
+      <h2 class="user-name">{{user.name}}</h2>
+      <h3 class="mobile-number">{{user.$key}}</h3>
+      <ion-note item-end>
+        <div class="online" *ngIf="user.state == 'online'"></div>
+      </ion-note>
+    </ion-item>    
+  </ion-list>
+</ion-content>

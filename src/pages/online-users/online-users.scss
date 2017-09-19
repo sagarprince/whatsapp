@@ -1,0 +1,47 @@
+page-online-users {
+    ion-header {
+        .show-back-button {
+            color: #FFFFFF!important;
+        }
+
+        .toolbar-background-md {
+            background: #005e54;
+        }
+        .toolbar-title-md {
+            color: #FFFFFF;
+        }
+    }
+
+    .scroll-content {
+        overflow-y: auto;
+        background: #efe7dd url("../assets/images/conversation-bg.jpg") repeat;
+    }
+
+    .item {
+        margin-top: 15px;
+        cursor: pointer;
+
+        &:first-child {
+            margin-top: 0px;
+        }
+
+        .user-name {
+            margin-top: 3px;
+        }
+    }
+
+    .online {
+        background-color: green;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+    }
+
+    .list-avatar-page {
+        ion-note {
+            font-size: 12px;
+            align-self: flex-start;
+            margin-top: 14px;
+        }
+    }
+}

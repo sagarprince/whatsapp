@@ -1,0 +1,31 @@
+page-login {
+    ion-header {
+        .toolbar-background-md {
+            background: #005e54;
+        }
+        .toolbar-title-md {
+            color: #FFFFFF;
+        }
+    }
+
+    .scroll-content {
+        overflow-y: auto;
+        background: #efe7dd url("../assets/images/conversation-bg.jpg") repeat;
+    }
+
+    .form-input {
+        margin-top: 15px;
+
+        input {
+            border: 0;
+            margin: 0px;
+            font-size: 15px;
+            width: 100%;
+            padding: 10px 15px;
+        }
+    }
+
+    .form-button {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,20 @@
+group
+
+ --- message payload
+ {
+     text: 'Hi',
+     mobileNumber: 9762806542,
+     name: 'Sagar Pansare',
+     time: 2020202020, (timestamp)
+     sent: false
+ }
+
+ /group-name/messages
+ /group-name/users
+ 
+once user enter his details into form
+then add that user to online users list
+
+keep online users list -- /online
+
+https://github.com/adriancarriger/angularfire2-offline
